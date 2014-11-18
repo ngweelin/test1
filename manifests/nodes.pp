@@ -1,4 +1,4 @@
-node 'ip-172-31-3-6' {
+node 'ami1' {
 file { '/tmp/hello': 
  content => "hello world\n",
  }
